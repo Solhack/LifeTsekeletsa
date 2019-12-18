@@ -1,0 +1,72 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - node-sass > request > extend:
+        patched: '2019-12-18T11:53:59.878Z'
+    - gulp > liftoff > extend:
+        patched: '2019-12-18T11:53:59.878Z'
+    - '@adonisjs/lucid > knex > liftoff > extend':
+        patched: '2019-12-18T11:53:59.878Z'
+    - node-sass > node-gyp > request > extend:
+        patched: '2019-12-18T11:53:59.878Z'
+    - gulp-sass > node-sass > request > extend:
+        patched: '2019-12-18T11:53:59.878Z'
+    - gulp-sass > node-sass > node-gyp > request > extend:
+        patched: '2019-12-18T11:53:59.878Z'
+    - gulp-imagemin > imagemin-optipng > optipng-bin > bin-build > download > vinyl-fs > glob-stream > extend:
+        patched: '2019-12-18T11:53:59.878Z'
+    - gulp-imagemin > imagemin-optipng > optipng-bin > bin-build > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2019-12-18T11:53:59.878Z'
+    - gulp-imagemin > imagemin-gifsicle > gifsicle > bin-build > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2019-12-18T11:53:59.878Z'
+    - gulp-imagemin > imagemin-jpegtran > jpegtran-bin > bin-build > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2019-12-18T11:53:59.878Z'
+    - gulp-imagemin > imagemin-optipng > optipng-bin > bin-wrapper > download > vinyl-fs > glob-stream > extend:
+        patched: '2019-12-18T11:53:59.878Z'
+    - gulp-imagemin > imagemin-gifsicle > gifsicle > bin-build > download > vinyl-fs > glob-stream > extend:
+        patched: '2019-12-18T11:53:59.878Z'
+    - gulp-imagemin > imagemin-jpegtran > jpegtran-bin > bin-build > download > vinyl-fs > glob-stream > extend:
+        patched: '2019-12-18T11:53:59.878Z'
+    - gulp-imagemin > imagemin-jpegtran > jpegtran-bin > bin-wrapper > download > vinyl-fs > glob-stream > extend:
+        patched: '2019-12-18T11:53:59.878Z'
+    - gulp-imagemin > imagemin-gifsicle > gifsicle > bin-wrapper > download > vinyl-fs > glob-stream > extend:
+        patched: '2019-12-18T11:53:59.878Z'
+    - gulp-imagemin > imagemin-jpegtran > jpegtran-bin > bin-wrapper > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2019-12-18T11:53:59.878Z'
+    - gulp-imagemin > imagemin-optipng > optipng-bin > bin-build > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2019-12-18T11:53:59.878Z'
+    - gulp-imagemin > imagemin-jpegtran > jpegtran-bin > bin-build > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2019-12-18T11:53:59.878Z'
+    - gulp-imagemin > imagemin-optipng > optipng-bin > bin-wrapper > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2019-12-18T11:53:59.878Z'
+    - gulp-imagemin > imagemin-gifsicle > gifsicle > bin-build > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2019-12-18T11:53:59.878Z'
+    - gulp-imagemin > imagemin-gifsicle > gifsicle > bin-wrapper > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2019-12-18T11:53:59.878Z'
+  'npm:hoek:20180212':
+    - node-sass > node-gyp > request > hawk > hoek:
+        patched: '2019-12-18T11:53:59.878Z'
+    - node-sass > node-gyp > request > hawk > boom > hoek:
+        patched: '2019-12-18T11:53:59.878Z'
+    - node-sass > node-gyp > request > hawk > sntp > hoek:
+        patched: '2019-12-18T11:53:59.878Z'
+    - gulp-sass > node-sass > node-gyp > request > hawk > hoek:
+        patched: '2019-12-18T11:53:59.878Z'
+    - node-sass > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-12-18T11:53:59.878Z'
+    - gulp-sass > node-sass > node-gyp > request > hawk > boom > hoek:
+        patched: '2019-12-18T11:53:59.878Z'
+    - gulp-sass > node-sass > node-gyp > request > hawk > sntp > hoek:
+        patched: '2019-12-18T11:53:59.878Z'
+    - gulp-sass > node-sass > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-12-18T11:53:59.878Z'
+  'npm:minimatch:20160620':
+    - gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2019-12-18T11:53:59.878Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2019-12-18T11:53:59.878Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2019-12-18T11:53:59.878Z'
