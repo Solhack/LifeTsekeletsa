@@ -46,6 +46,12 @@ patch:
         patched: '2019-12-18T11:53:59.878Z'
     - gulp-imagemin > imagemin-gifsicle > gifsicle > bin-wrapper > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
         patched: '2019-12-18T11:53:59.878Z'
+    - gulp > gulp-cli > liftoff > extend:
+        patched: '2019-12-18T11:55:11.247Z'
+    - gulp > vinyl-fs > glob-stream > extend:
+        patched: '2019-12-18T11:55:11.247Z'
+    - '@adonisjs/lucid > knex-dynamic-connection > knex > liftoff > extend':
+        patched: '2019-12-18T11:55:11.247Z'
   'npm:hoek:20180212':
     - node-sass > node-gyp > request > hawk > hoek:
         patched: '2019-12-18T11:53:59.878Z'
