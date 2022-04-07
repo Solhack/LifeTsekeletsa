@@ -29,7 +29,7 @@
     "@adonisjs/bodyparser": "^2.0.3",
     "@adonisjs/cors": "^1.0.6",
     "@adonisjs/fold": "^4.0.8",
-    "@adonisjs/framework": "^5.0.7",
+    "@adonisjs/framework": "^5.0.9",
     "@adonisjs/ignitor": "^2.0.6",
     "@adonisjs/lucid": "^7.2.1",
     "@adonisjs/session": "^1.0.25",
@@ -49,7 +49,7 @@
     "gulp-eslint": "^4.0.0",
     "gulp-imagemin": "^5.0.0",
     "gulp-sass": "^3.0.0",
-    "gulp-shell": "^0.6.3",
+    "gulp-shell": "^0.7.1",
     "gulp-uglify": "^2.0.0",
     "gulp-watch": "^4.3.9",
     "html-webpack-plugin": "^2.28.0",
@@ -62,8 +62,8 @@
     "redux": "^3.6.0",
     "sass-loader": "^6.0.3",
     "standard": "^11.0.0",
-    "webpack": "^2.5.1",
-    "webpack-stream": "^3.2.0",
+    "webpack": "^4.0.0",
+    "webpack-stream": "^7.0.0",
     "snyk": "^1.262.2"
   },
   "devDependencies": {
