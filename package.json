@@ -64,7 +64,7 @@
     "standard": "^11.0.0",
     "webpack": "^2.5.1",
     "webpack-stream": "^3.2.0",
-    "snyk": "^1.262.2"
+    "snyk": "^1.1024.0"
   },
   "devDependencies": {
     "babel-plugin-transform-class-properties": "^6.24.1",
