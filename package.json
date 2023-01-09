@@ -24,7 +24,7 @@
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
-    "@adonisjs/ace": "^5.0.2",
+    "@adonisjs/ace": "^6.0.0",
     "@adonisjs/auth": "^3.0.5",
     "@adonisjs/bodyparser": "^2.0.3",
     "@adonisjs/cors": "^1.0.6",
@@ -64,7 +64,7 @@
     "standard": "^11.0.0",
     "webpack": "^2.5.1",
     "webpack-stream": "^3.2.0",
-    "snyk": "^1.262.2"
+    "snyk": "^1.518.0"
   },
   "devDependencies": {
     "babel-plugin-transform-class-properties": "^6.24.1",
